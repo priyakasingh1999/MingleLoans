@@ -8,6 +8,7 @@ import LoanApplicationForm from './Component/LoanApplicationForm';
 import { LoanReports } from './Component/LoanReports';
 import ApplicationContactDetails from './Component/ApplicationContactDetails';
 import DocumentUpload from './Component/DocumentUpload';
+import LoanReportForm from './Component/LoanReportForm';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path='/loan-reports' element={<LoanReports/>}></Route>
       <Route path='/application-details' element={<ApplicationContactDetails/>}></Route>
       <Route path='/document-upload' element={<DocumentUpload/>}></Route>
+      <Route path='loan-report-form' element={<LoanReportForm/>}></Route>
     </Routes>
   );
 }
